@@ -1,0 +1,13 @@
+hub:
+  config:
+    Authenticator:
+      admin_users:
+        - stefan_gindl
+    JupyterHub:
+      authenticator_class: nativeauthenticator.NativeAuthenticator
+      logo_file: prototAIp__logo_red.png
+singleuser:
+  image:
+    name: michaelbochrsa/prototaip-notebook
+    tag: latest
+  cmd: null
